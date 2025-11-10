@@ -68,12 +68,12 @@ dependencies {
 logger = "1.0.0"
 
 [libraries]
-jitpack-stylesdevelopments-logger = { module = "com.github.StylesDevelopments:Logger", version.ref = "logger" }
+stylesdevelopments-logger = { module = "com.github.StylesDevelopments:Logger", version.ref = "logger" }
 ```
 
 Usage in Gradle:
 ```kotlin
-implementation(libs.jitpack.stylesdevelopments.logging)
+implementation(libs.stylesdevelopments.logging)
 ```
 
 ---
